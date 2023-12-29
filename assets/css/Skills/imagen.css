@@ -1,0 +1,33 @@
+.img__skills img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px;
+}
+.skills__name {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.title__skills {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.skills__line{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-start;
+}
+.skill__box {
+    flex: 0 0 calc(20% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid violet;
+    border-radius: 5%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.skill__box :hover{
+    transform: scale(1.05);
+}
